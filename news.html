@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="./styles/news.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>ASTRONOMY</h1>
+            <ul class="topnav" id="myTopnav">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./news.html">NEWS</a></li>
+                <li><a href="./product.html">PRODUCTS</a></li>
+                <li><a href="cart.html">CART</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </header>
+        <div class="content">
+        <div class="newss"><img src="./images/news.jpg" alt="" id="newss"></div>
+
+        <div class="contain">
+           <div class="contai"><img src="./images/asteroid.webp" alt=""><h4>NASA's Lucy mission discovers surprise asteroid on Dinky fly by</h4>
+           </div>
+           <div class="contai"><img src="./images/asteroids.jpg" alt=""><h4>NASA's robot prospectors blaze a trail that humans may follow</h4>
+           </div>
+           <div class="contai"><img src="./images/flamingo-gif.gif" alt=""><h4>Watch the universe evolve in the most comprehensive simulation ever</h4>
+           </div>  
+        </div>
+
+        <footer>
+            <p> &copy; CopyRight by Prakash</p>
+         </footer>
+    </main>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>

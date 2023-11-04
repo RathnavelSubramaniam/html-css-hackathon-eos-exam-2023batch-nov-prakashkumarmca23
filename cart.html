@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+</head>
+<body>
+    <main>
+        <header>
+            <h1>ASTRONOMY</h1>
+            <ul class="topnav" id="myTopnav">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./news.html">NEWS</a></li>
+                <li><a href="./product.html">PRODUCTS</a></li>
+                <li><a href="cart.html">CART</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </header>
+
+    <div class="container-fluid  mt-100">
+        <div class="row">
+        
+           <div class="col-md-12">
+           
+                   <div class="card">
+               <div class="card-header">
+               <h5>Cart</h5>
+               </div>
+               <div class="card-body cart">
+                       <div class="col-sm-12 empty-cart-cls text-center">
+                           <h3><strong>Your Cart is Empty</strong></h3>
+                           <h4>Add something to make me happy :)</h4>
+                           <a href="#" class="btn btn-primary cart-btn-transform m-3" data-abc="true">continue shopping</a>
+                           
+                       
+                       </div>
+               </div>
+       </div>
+               
+           
+           </div>
+        
+        </div>
+       
+       </div>
+       <footer>
+        <p> &copy; CopyRight by Prakash</p>
+     </footer>
+       </main>
+       <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>

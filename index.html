@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>ASTRONOMY</h1>
+            <ul class="topnav" id="myTopnav">
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./news.html">NEWS</a></li>
+                <li><a href="./product.html">PRODUCTS</a></li>
+                <li><a href="cart.html">CART</a></li>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </ul>
+        </header>
+        <div class="container">
+
+            <div class="aside">
+                <img src="./images/flamingo-gif.gif" alt="star">
+            </div>
+            <div class="section">
+                <div class="list">
+                    <h2>Astronomical Events in 2023</h2>
+                    <ul>
+                        <li> <a href="./product.html">Quadrantids Meteors</a></li>
+                        <li> <a href="./product.html">Earth's Perihelion</a></li>
+                        <li><a href="./product.html">Conjunction of Venus and Saturn</a></li>
+                        <li><a href="./product.html">Green Comet Closest to Earth </a></li>
+                    </ul>
+                </div>
+                <h2>Top Stories</h2>
+                <p>The dynamical dance of physics can entrance — as the latest supercomputer models of the cosmos
+                    demonstrate.
+                    Dubbed FLAMINGO, the set of simulations captures the emergence of the structure of the universe.
+                    Starting from.The simulations were developed by the Virgo Consortium, an international collaboration
+                     that has been working on such simulations since it was founded in 1994.
+                </p>
+               
+            </div>
+        </div>
+        <div class="imgs">
+            <img src="./images/meteor.jpg" alt="">
+            <img src="./images/solor eclipse.webp" alt="">
+            <img src="./images/lonar eclipse.jpg" alt="">
+            <img src="./images/consellation.jpg" alt="">
+        </div>
+
+        <footer>
+            <p> &copy; CopyRight by Prakash</p>
+         </footer>
+    </main>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+
+</html>
